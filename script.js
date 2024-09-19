@@ -40,6 +40,9 @@ function clearForm() {
   document.getElementById('dob').value = '';
 }
 
+// acho q eh a solucao
+window.addEventListener('load', displayUserData);
+
 // Evento de envio do formulário
 document.getElementById('userForm').addEventListener('submit', function (e) {
   e.preventDefault();
